@@ -1,0 +1,27 @@
+
+{
+  "Version": "REDACTED",
+  "BackendState": "Running",
+  "TailscaleIPs": ["xx.yy", "xx:yy"],
+
+  "Self": {
+    "HostName": "mac-mini",
+    "OS": "macOS",
+    "AllowedIPs": ["xx.yy/32", "xx:yy/128", "0.0.0.0/0", "::/0"],
+    "Tags": ["tag:exit-node"],
+    "Created": "<TIMESTAMP>",
+    "LastSeen": "<TIMESTAMP>",
+    "Online": true,
+    "ExitNode": false,
+    "ExitNodeOption": true
+  },
+
+  "Peer": {
+    "nodekey:REDACTED": {
+      "HostName": "example-client",
+      "OS": "windows",
+      "ExitNode": true,
+      "Online": true
+    }
+  }
+}

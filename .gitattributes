@@ -1,2 +1,6 @@
 # Normalize line endings
 * text=auto
+
+# macos-always-on-exit-node
+
+Always-on power model for macOS exit nodes.

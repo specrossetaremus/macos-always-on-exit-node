@@ -1,0 +1,6 @@
+creation_rules:
+  - path_regex: '.*\.sops\.(env|yaml|yml|json|ini|txt|bin)$'
+    age: 'age16n0pau98y69avprtym6ym8hmfg8ysqpsev0f9cq38fnshyq5kessasqlnu'
+  - path_regex: '.*\.sops$'
+    age: 'age16n0pau98y69avprtym6ym8hmfg8ysqpsev0f9cq38fnshyq5kessasqlnu'
+
